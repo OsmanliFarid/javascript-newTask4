@@ -29,6 +29,7 @@ function parent (){
      function parent2(){
         
         d.remove()
+
         
     }
     c.onclick = parent2
@@ -39,5 +40,9 @@ function parent (){
 
 
 b.onclick = parent
+
+
+
+
 
 
