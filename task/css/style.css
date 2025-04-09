@@ -23,6 +23,7 @@ nav{
     grid-template-columns: 200px 600px 200px;
     gap: 120px;
     align-items: center;
+    height: 80px;
 }
 .links ul{
     display: flex;
@@ -90,4 +91,20 @@ form{
     position: absolute;
     top: -180px;
     right: 30px;
+}
+.dropdown-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    background-color: aliceblue;
+    width: 100px;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-dropdown {
+    opacity: 1;
+    visibility: visible;
 }
