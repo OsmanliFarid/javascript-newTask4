@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+.btn-box{
+    background-color: orange;
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 6px;
+}
+.fa-phone{
+    color: #fff;
+    margin-right: 10px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 200px 600px 200px;
+    gap: 120px;
+    align-items: center;
+    height: 80px;
+}
+.links ul{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    color: #010101;
+}
+.links ul{
+    justify-content: center;
+}
+.logo img{
+    width: 200px;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+}
+.input-title{
+    border: 1px solid orange;
+    width: 300px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.input-title2{
+    border: 1px solid orange;
+    width: 300px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.input-title3{
+    border: 1px solid orange;
+    width: 300px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+}
+.form-boxs-boxs{
+    display: grid;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.5);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.call-header-title{
+    text-align: center;
+}
+.call-boxs{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: -180px;
+    right: 30px;
+}
+.dropdown-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    background-color: aliceblue;
+    width: 100px;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show-dropdown {
+    opacity: 1;
+    visibility: visible;
+}
