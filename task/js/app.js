@@ -66,7 +66,6 @@ const dropdown_box_id = document.querySelector("#dropdown-box-id")
 
         const btn_dark = document.querySelector("#btn-dark")
         const dark_btn_boxs = document.querySelector("#dark-btn-boxs")
-        console.log(dark_btn_boxs);
         
         btn_dark.addEventListener('click',() =>{
             if(btn_dark.innerText === "ac"){
@@ -233,6 +232,33 @@ const dropdown_box_id = document.querySelector("#dropdown-box-id")
       
       
       })
+
+
+
+const value_deger1_btn = document.querySelector("#value-deger1-btn")
+const value_deger2_btn = document.querySelector("#value-deger2-btn")
+const faktorial_box_btn = document.querySelector("#faktorial-box-btn")
+    
+    
+    
+
+faktorial_box_btn.addEventListener('click',() =>{
+    let newNum3 = Number(value_deger1_btn.value)
+let hasil = 1;
+    for(let i = newNum3;i > 0;i--){
+        hasil *= newNum3
+        
+    }
+    value_deger2_btn.value = hasil
+    
+    
+    
+})
+
+
+
+
+
         
         
         
