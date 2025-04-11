@@ -109,78 +109,74 @@ form{
     visibility: visible;
 }
 .calculater-boxs{
-    box-shadow: 10px 8px 20px rgba(0,0,0,0.5);
-    width: 300px;
+    display: grid;
+    row-gap: 20px;
+    
+    
     padding: 20px;
+    grid-template-columns: repeat(4,1fr);
+    
+    border-radius: 30px;
+}
+.calculater-boxs-box{
+    background-color: white;
+    width: 300px;
+    box-shadow: 10px 10px 18px rgba(0,0,0,0.5);
 }
 .calculater-btn{
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-.value-box{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 6px;
-}
-.beraber-btn{
-    grid-row: 2/6;
-    grid-column: 4/5;
-    border-radius: 30px;
-    height: auto;
-}
-.topla-btn{
-    grid-row: 2/3;
-    grid-column: 4/5;
-}
-.cixma-btn{
-    grid-row: 1/2;
-    grid-column: 4/5;
-}
-.calculater-btn:nth-child(10){
-    grid-row: 4/5;
-}
 .calculater-box{
-    display: flex;
+    display: grid;
     justify-content: center;
-    margin-top: 100px;
+    align-items: center;
+    height: 100vh;
 }
-.value-start{
-    position: relative;
-    border: 3px solid black;
-    height: 60px;
-    margin: 10px 0px;
-    border-radius: 30px;
-    background-color: #9a9a9a;
-    color: #fff;
-}
-.value-start-btn{
-    font-size: 30px;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-}
-.calculater-btn:nth-child(11){
-    grid-row: 4/5;
-    grid-column: 4/5;
-}
-#topla-btn{
+#calc-btn5{
     grid-row: 1/2;
-    grid-column: 1/2;
 }
-#cixma-btn{
+#calc-btn4{
     grid-row: 1/2;
     grid-column: 2/3;
 }
-#vurma-btn{
+#calc-btn2{
     grid-row: 1/2;
     grid-column: 3/4;
 }
-#bolme-btn{
+#calc-btn3{
     grid-row: 1/2;
     grid-column: 4/5;
 }
-#calculater-btn10{
-    grid-row: 5/6;
-    grid-column: 3/4;
+#calc-btn6{
+    grid-row: 2/6;
+    grid-column: 4/5;
+    height: auto;
+    border-radius: 30px;
+}
+.value-boxs{
+    position: relative;
+    width: 250px;
+    margin: 10px 0px;
+    margin-inline: auto;
+    height: 70px;
+    border-radius: 20px;
+    background-color: #837f7f;
+    color: #fff;
+}
+.value-box{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 40px;
+}
+.btn-str{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#btn-dark{
+    width: 50px;
+    height: 50px;
 }
