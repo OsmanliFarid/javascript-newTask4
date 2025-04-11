@@ -87,7 +87,7 @@ const dropdown_box_id = document.querySelector("#dropdown-box-id")
                       <button class="calculater-btn" id="calculater-btn9">9</button>
                       <button class="calculater-btn" id="calculater-btn0">0</button>
                       <button class="calculater-btn" id="dot-btn">.</button>
-                      <button class="calculater-btn" id="calc-btn2">*</button>
+                      <button class="calculater-btn" id="calc-btn2">x</button>
                       <button class="calculater-btn" id="calc-btn3">/</button>
                       <button class="calculater-btn" id="calc-btn4">-</button>
                       <button class="calculater-btn" id="calc-btn5">+</button>
@@ -202,8 +202,8 @@ const dropdown_box_id = document.querySelector("#dropdown-box-id")
       
               
               
-          }else if(mesaj.includes("*")){
-              let newMesaj2 = mesaj.split("*")
+          }else if(mesaj.includes("x")){
+              let newMesaj2 = mesaj.split("x")
               num1 = +newMesaj2[0]
               num2 = +newMesaj2[1]
               value = num1 * num2
