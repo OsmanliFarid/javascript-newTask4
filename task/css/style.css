@@ -179,4 +179,38 @@ form{
 #btn-dark{
     width: 50px;
     height: 50px;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+.faktorial-box{
+    position: relative;
+    background-color: #837f7f;
+    color: #fff;
+    width: 200px;
+    height: 90px;
+}
+
+.faktorial-btn{
+    margin-bottom: 10px;
+}
+.value-deger1{
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+    font-size: 38px;
+}
+.faktorial-boxs{
+    position: absolute;
+    right: 100px;
+}
+.input2{
+    width: 50px;
+    margin: 20px 0px;
+    margin-left: 100px;
+}
+.title-input{
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 40px;
 }
