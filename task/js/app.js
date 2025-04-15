@@ -246,11 +246,12 @@ faktorial_box_btn.addEventListener('click',() =>{
     let newNum3 = Number(value_deger1_btn.value)
 let hasil = 1;
     for(let i = newNum3;i > 0;i--){
-        hasil *= newNum3
+        hasil *= i
         
     }
     value_deger2_btn.value = hasil
-    
+    newNum3 = ""
+    value_deger1_btn.value = ""
     
     
 })
